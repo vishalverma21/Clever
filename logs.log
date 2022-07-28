@@ -1,0 +1,28 @@
+2022-07-28 11:32:51 [common.AttachHooks] INFO :: Inside set up method of before hook
+2022-07-28 11:32:51 [common.AttachHooks] INFO :: /Users/vishal/Desktop/Automation peojects/Thought
+2022-07-28 11:32:51 [common.AttachHooks] INFO :: setup:::::::
+2022-07-28 11:32:51 [common.AttachHooks] INFO :: Our browser will be invoked here
+2022-07-28 11:32:54 [page.LoginPage] INFO :: entering the URL
+2022-07-28 11:32:57 [page.LoginPage] INFO :: URL is entered successfully
+2022-07-28 11:32:57 [page.LoginPage] INFO :: Landing page is verified successfully for all texts and buttons
+2022-07-28 11:32:57 [stepDefinition.LoginPageStepDef] INFO :: URL entered Successfully
+2022-07-28 11:32:57 [page.LoginPage] INFO :: User Name is entered successfully
+2022-07-28 11:32:57 [page.LoginPage] INFO :: Password is entered successfully
+2022-07-28 11:32:57 [stepDefinition.LoginPageStepDef] INFO :: Login credentials entered Successfully
+2022-07-28 11:32:58 [page.LoginPage] INFO :: Login Button is clicked successfully
+2022-07-28 11:32:58 [stepDefinition.LoginPageStepDef] INFO :: Login Button clicked Successfully
+2022-07-28 11:33:00 [page.HomePage] INFO :: Home Page is verified successfully
+2022-07-28 11:33:00 [stepDefinition.HomePageStepDef] INFO :: Home page is verified successfully 
+2022-07-28 11:33:00 [page.HomePage] INFO :: Brand Logo is clicked successfully on Home page
+2022-07-28 11:33:00 [stepDefinition.HomePageStepDef] INFO :: Working time is clicked successfully on Home page
+2022-07-28 11:33:00 [page.HomePage] INFO :: Working time area page is verified successfully on Home page
+2022-07-28 11:33:00 [stepDefinition.HomePageStepDef] INFO :: Working time area is verified successfully 
+2022-07-28 11:33:00 [page.HomePage] INFO :: Record time button is clicked successfully on Home page
+2022-07-28 11:33:00 [stepDefinition.HomePageStepDef] INFO :: Record time button is clicked successfully 
+2022-07-28 11:33:02 [page.HomePage] INFO :: Timer is started successfully on Home page
+2022-07-28 11:33:02 [stepDefinition.HomePageStepDef] INFO :: Timer is verified successfully 
+2022-07-28 11:33:02 [page.HomePage] INFO :: End Recording button is clicked
+2022-07-28 11:33:02 [page.HomePage] INFO :: Stop Timer button is clicked successfully on Home page
+2022-07-28 11:33:02 [stepDefinition.HomePageStepDef] INFO :: Stop working time button is clicked successfully 
+2022-07-28 11:33:04 [page.HomePage] INFO :: Timer is stopped successfully and reset to default on Home page
+2022-07-28 11:33:04 [stepDefinition.HomePageStepDef] INFO :: Timer is stopped successfully 
