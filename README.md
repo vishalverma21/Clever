@@ -76,3 +76,14 @@ mvn test
 
 ## Screenshot
 Screenshots are available in target directory after each execution
+
+
+##SQL queries:
+
+o What is the share of record sources that are related to driver notification tasks?
+
+select count(*) RECORD_SOURCE inner join record on source_id=id inner join record_property on record_id=id inner join driver_notification_task on plan_item_id=long_value and record_property.name = ‘SHIFT_ID’
+
+What is the average duration between the timestamps from the driver notification tasks and the corresponding records?
+
+select AVG(driver_notification_task.timestamp-record.timestamp) from driver_notification_task innter join on record_property plan_item_id=long_value and record_property.name = ‘SHIFT_ID’ innter join record on record id = record_idselect AVG(driver_notification_task.timestamp-record.timestamp) from driver_notification_task innter join on record_property plan_item_id=long_value and record_property.name = ‘SHIFT_ID’ innter join record on record id = record_id group by source_id
